@@ -1,0 +1,13 @@
+.countrycard {
+  height: 1000px;
+}
+.countrycard table {
+  width: 80%;
+  height: 70%;
+}
+.countrycard table th:first-child {
+  border-top-left-radius: 30px;
+}
+.countrycard table th:last-child {
+  border-top-right-radius: 30px;
+}

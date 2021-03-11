@@ -1,0 +1,125 @@
+@import url(https://fonts.googleapis.com/css?family=Khula:700);
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Chettan+2:wght@600&display=swap");
+.hidden {
+  opacity: 0;
+}
+.console-container {
+  font-family: Khula;
+  font-size: 4em;
+  text-align: center;
+  height: 100px;
+  width: 670px;
+  display: block;
+  /* position: absolute; */
+  color: white;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+.console-underscore {
+  display: inline-block;
+  position: relative;
+  top: -0.14em;
+  left: 10px;
+}
+.newsbox {
+  padding: 40px 0;
+  position: relative;
+  width: 75%;
+  margin: auto;
+}
+.newsheader {
+  height: 50px;
+  position: relative;
+  display: flex;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background: #b1152fcc;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+.newsheader h3 {
+  text-align: left;
+  padding: 7px 20px;
+}
+.newsheader h4 {
+  color: #0c2b50;
+
+  padding: 15px;
+  text-align: right;
+}
+.newswritings {
+  padding: 10px;
+  outline-offset: 4px;
+  border: 2px solid #b1152fcc;
+  border-top: none;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+.newswritings p {
+  padding: 20px 20px;
+  font-size: large;
+  color: beige;
+  font-family: "Roboto Mono", monospace;
+  text-align: justify;
+}
+#nocred {
+  position: absolute;
+  bottom: 40px;
+}
+.userBox {
+  display: flex;
+  height: 80px;
+  flex-direction: row;
+  position: relative;
+  left: 80%;
+  border-top: 2px solid #b1152f;
+  border-right: 3px solid #b1152f;
+  border-radius: 25px;
+  width: 350px;
+  background: linear-gradient(145deg, #b1152f, #b1152f, #0c2b50, #0c2b50);
+}
+.userBox img {
+  position: absolute;
+  right: 23px;
+  top: 9px;
+}
+.userName {
+  position: relative;
+}
+.userName h4 {
+  padding: 0 20px;
+  position: absolute;
+  top: 19px;
+  text-transform: capitalize;
+  font-size: 30px;
+  font-family: "Baloo Chettan 2", cursive;
+}
+.penIcon {
+  position: absolute;
+  left: 10%;
+  top: 50px;
+}
+.stuff li {
+  font-size: 20px;
+}
+.btn-pos {
+  top: 100px;
+}
+.btn-pos button {
+  border-radius: 12px;
+  border-right: 2px solid #11417a;
+  border-top: 2px solid #11417a;
+}
+.btn-pos button:hover {
+  border-right: 2px solid #b1152f;
+  border-top: 2px solid #b1152f;
+}
+.newstuff {
+  margin-top: 60px;
+}

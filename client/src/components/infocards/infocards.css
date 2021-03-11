@@ -1,0 +1,99 @@
+.body {
+  margin-left: 9%;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 400px;
+}
+.info h3 {
+  padding: 4px;
+  letter-spacing: 1px;
+  text-align: center;
+  font-size: 25px;
+  font: bold;
+  font-family: "Big Shoulders Stencil Display", cursive;
+}
+.info {
+  /* background: white; */
+
+  position: relative;
+  width: 90%;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  grid-template-rows: auto;
+  grid-gap: 0 40px;
+}
+.infocard {
+  transition: all 0.5s ease;
+  position: relative;
+  height: 350px;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transform: skew(2deg);
+  box-shadow: 6px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 6px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 6px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  border-top: 1px solid #eee4e6cc;
+}
+.infocard:hover {
+  transform: translateY(-5px);
+  box-shadow: -5px -7px 5px 0px #b1152fcc;
+  -webkit-box-shadow: -5px -7px 5px 0px#b1152fcc;
+  -moz-box-shadow: -5px -7px 5px 0px #b1152fcc;
+  border-top: none;
+  border-left: none;
+}
+.infocard img {
+  position: absolute;
+  transition: 0.5s;
+  top: 60px;
+}
+.infocard h3 {
+  transition: 0.5s;
+  color: #b1152fcc;
+  position: absolute;
+  bottom: 130px;
+}
+.infocard p {
+  padding: 10px 50px;
+  font-weight: bold;
+  color: #c3b8bacc;
+  position: absolute;
+  bottom: 50px;
+}
+
+.info:hover .infocard p {
+  top: 180px;
+  font-size: 25px;
+}
+.info:hover .infocard img {
+  top: 30px;
+  left: 30px;
+}
+.info:hover .infocard h3 {
+  padding: 0px 10;
+  font-size: 30px;
+  color: #cc092a;
+  top: 150px;
+}
+.infocard .circle {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  /* background: #1f1f1f; */
+  background: #ffffff;
+
+  -webkit-box-shadow: inset 3px 1px 3px 3px rgba(0, 0, 0, 0.548);
+  box-shadow: inset 3px 1px 3px 3px rgba(0, 0, 0, 0.548);
+}
+.info:hover .circle {
+  -webkit-box-shadow: inset 3px 4px 3px 3px rgba(0, 0, 0, 0.548);
+  box-shadow: inset 3px 4px 3px 3px rgba(0, 0, 0, 0.548);
+}

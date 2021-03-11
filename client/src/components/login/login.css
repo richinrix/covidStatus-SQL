@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Fredoka+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@500&display=swap");
+* {
+  outline: 0 !important;
+}
+.inputbox {
+  position: relative;
+  font-family: "Comfortaa", cursive;
+  margin: 200px auto;
+  width: 650px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  background: linear-gradient(to bottom, #b1152f, #b1152fee, #580b18cc);
+  border-radius: 15px;
+  padding: 50px;
+  -webkit-box-shadow: 0px 0px 10px 7px #000000b7;
+  box-shadow: 0px 0px 10px 7px #00000094;
+}
+.row1,
+.row2 {
+  align-items: center;
+  padding: 20px 0px 0px 0px;
+  display: flex;
+  flex-direction: row;
+}
+h3 {
+  padding: 30px 20px;
+  font-size: 30px;
+}
+.input {
+  font-size: 18px;
+  color: rgb(212, 64, 64);
+  background: rgba(7, 7, 7, 0.856);
+  border-radius: 10px;
+  border: none;
+  text-align: center;
+  height: 20px;
+  outline: none;
+  padding: 25px 0px;
+
+  /* box-shadow: inset 7px 7px 15px rgba(55, 84, 170, 0.15),
+    inset -7px -7px 20px rgba(129, 32, 32), 0px 0px 4px rgba(110, 17, 17, 0.2); */
+}
+/* .input:focus {
+  outline: none;
+}
+.input[type="text"]::--moz-focus-inner {
+  border: 0;
+} */
+.input:focus {
+  border-left: 4px solid white;
+}
+.input::placeholder {
+  color: white;
+  font-size: 15px;
+}
+.people,
+.pressbtn {
+  border-radius: 50%;
+}
+.people {
+  width: 100px;
+  border: 2px solid black;
+}
+.loginbtns {
+  display: flex;
+  flex-direction: row;
+  bottom: 50px;
+  justify-content: center;
+}
+
+.loginBtn {
+  /* position: absolute; */
+  margin: 10px 50px;
+  /* bottom: 65px; */
+  font-size: 30px;
+  color: white;
+  font-family: "Fredoka One", cursive;
+  background: none;
+  outline: none;
+  border: none;
+  width: 180px;
+  border-radius: 20px;
+  box-shadow: inset 0 0 15px rgba(55, 84, 170, 0),
+    inset 0 0 20px rgba(255, 255, 255, 0), 7px 7px 15px rgba(55, 84, 170, 0.15),
+    -7px -7px 20px rgb(129, 32, 32), inset 0px 0px 4px rgba(110, 17, 17, 0.2);
+
+  transition: box-shadow 399ms ease-in-out;
+}
+.loginBtn:hover {
+  cursor: pointer;
+  box-shadow: inset 7px 7px 15px rgba(14, 21, 43, 0.61),
+    inset -7px -7px 20px rgba(129, 32, 32), 0px 0px 4px rgba(110, 17, 17, 0.2);
+}
+.loginBtn:active {
+  box-shadow: inset 7px 7px 15px rgba(14, 21, 43, 0.61),
+    inset -7px -7px 20px rgba(129, 32, 32), 0px 0px 4px rgba(110, 17, 17, 0.2);
+}
+.hidden {
+  opacity: 0;
+}
+#wrongcreds,
+#nocred,
+#existinguser,
+#signedUP {
+  position: absolute;
+  bottom: 30px;
+}
